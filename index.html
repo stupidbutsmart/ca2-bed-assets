@@ -1,0 +1,13 @@
+<input type="text" id="file">
+<button id="redir-btn">Go to</button>
+
+<script>
+
+  document.getElementById('redir-btn').addEventListener('click' , (ev) => {
+    const file = document.getElementById('file').value;
+
+    window.location.href = `https://stupidbutsmart.github.io/ca2-bed-assets/${file}.jpeg`
+  })
+
+
+</script>
